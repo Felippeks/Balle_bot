@@ -1,0 +1,31 @@
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    /* Mudanças para dispositivos menores */
+    .cabecalho {
+        flex-wrap: wrap;
+    }
+    .cabecalho-imagem {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .cabecalho-menu {
+        width: 100%;
+    }
+    .conteudo-principal {
+        flex-wrap: wrap;
+    }
+    .conteudo-principal-escrito {
+        width: 100%;
+        text-align: center;
+    }
+    .conteudo-principal-imagem {
+        width: 100%;
+    }
+    .conteudo-secundario {
+        width: 100%;
+    }
+    .conteudo-principal-escrito-botao {
+        text-align: center;
+        margin: auto;
+    }
+}
